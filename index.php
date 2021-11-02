@@ -75,14 +75,14 @@
     </div>
     <div class="controls">
         <span class="vid-btn active" data-src="assets/images/vid-1.mp4"></span>
-        <span class="vid-btn" data-src="assets/images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="assets/images/vid-7.mp4"></span>
         <span class="vid-btn" data-src="assets/images/vid-3.mp4"></span>
         <span class="vid-btn" data-src="assets/images/vid-4.mp4"></span>
         <span class="vid-btn" data-src="assets/images/vid-5.mp4"></span>
         <span class="vid-btn" data-src="assets/images/vid-6.mp4"></span>
     </div>
     <div class="video-container">
-        <video src="assets/images/vid-7.mp4" id="video-slider" loop autoplay muted></video>
+        <video src="assets/images/vid-2.mp4" id="video-slider" loop autoplay muted></video>
     </div>
 
 </section>
