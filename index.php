@@ -637,14 +637,16 @@
 
 
 <!-- début bouton retour -->
-
+    <div id="scrollUp">
+    <a href="#top"><img src="assets/images/to_top.png"/></a>
+    </div>
 
 <!-- fin bouton retour -->
 
 
 
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <script src="main.js"></script>

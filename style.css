@@ -622,6 +622,14 @@ header .search-bar-container label:hover{
     color: var(--yellow);
 }
 
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
+
 
 
 
