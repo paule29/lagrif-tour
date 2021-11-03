@@ -490,8 +490,8 @@
 
                     <img src="assets/images/moi-2.jpg" alt="">
                     <h3>Paule OMBIONO</h3>
-                    <p>Stagiaire à l'ACS de Dijon en reconversion professionnelle. Parcours pas très glorieux car très souvent absente, mais par ma volonté d'apprendre et ma tenacité j'y suis parvenue à finir cette formation.</p>
-                    <p>Merci à mon formateur et à mes collègue de m'avoir accepté malgré tout. </p>
+                    <p>Stagiaire à l'ACS de Dijon en reconversion professionnelle. Parcours pas très glorieux car très souvent absente, mais par ma volonté d'apprendre, ma motivation et ma tenacité je suis arrivée au bout de cette formation.</p>
+                    <p>Merci à mon formateur, mon maitre de stage et à mes collègue de m'avoir accepté et encouragé malgré tout. </p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
