@@ -516,7 +516,7 @@
 <!-- début section contact -->
 
 
-<section class="contact">
+<section class="contact" id="contact">
 
 <h1 class="heading">
         
@@ -590,12 +590,11 @@
 
             <h3>Credit</h3>
 
-            <p> Ce site web a été réalisé dans le cadre du projet de ma fin de formation </p>
-
-            <a href="#">Wikipédia</a>
+            <a href="https://fr.wikipedia.org/">Wikipédia</a>
             <a href="#">Youtube</a>
             <a href="#">Freepik</a>
             <a href="#">Google</a>
+            <a href="mentions-legales.php">Mentions Légales</a>
 
         </div>
 
@@ -620,9 +619,9 @@
             <a href="#">Facebook</a>
             <a href="#">Instagram</a>
             <a href="#">snap</a>
-            <a href="#">Github</a>
-            <a href="#">Twitter</a>
-            <a href="#">Linkedin</a>
+            <a href="https://github.com/paule29/">Github</a>
+            <a href="https://twitter.com/home">Twitter</a>
+            <a href="https://www.linkedin.com/in/paule-ombiono/">Linkedin</a>
             
             
         </div>

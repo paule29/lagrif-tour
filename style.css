@@ -606,6 +606,7 @@ header .search-bar-container label:hover{
 .footer .box-container .box a:hover{
     color: var(--yellow);
     text-decoration: underline;
+    text-align: center;
 }
 
 .footer .credit{
