@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -312,37 +312,40 @@
         <div class="box">
             <i class="fas fa-hotel"></i>
             <h3>Nos hotêls</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Pour beaucoup de gens, choisir un hôtel fait simplement partie de la préparation d’un voyage, c’est une décision comme une autre, au même titre que l’achat d’un billet d’avion ou de train ! Après tout, ce qui compte est ce que l’on fait sur place dans la ville que l’on visite, non ?
+
+En réalité, pas tout à fait ! Un bon hébergement peut rendre votre voyage encore plus agréable… et une mauvaise expérience peut vous gâcher un séjour. Voilà qui mérite de se poser la question : comment bien choisir un hôtel ?</p>
         </div>
 
         <div class="box">
             <i class="fas fa-utensils"></i>
             <h3>Mets et traditions</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Voyager c’est avoir la chance de découvrir une culture et des traditions locales pour un enrichissement personnel. Cela permet de relativiser et de devenir plus ouvert et tolérant. C’est une opportunité de remettre ses croyances en cause. C’est sortir de son quotidien, rompre la routine, rencontrer l’autre, les autres.
+Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas la découverte d’un pays sans une découverte culinaire. Nous aimons voir comment les autres s’organisent. Chaque pays renferme des traditions différentes et la gastronomie raconte une histoire, une culture, un paysage et une identité..</p>
         </div>
 
         <div class="box">
             <i class="fas fa-bullhorn"></i>
             <h3>Guide touristique</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Le guide touristique organise des visites guidées (en français ou dans une autre langue) visant à découvrir des ouvrages et des lieux. Au cours de la visite, il illustre aux touristes l'histoire, les caractéristiques et la signification culturelle des monuments, œuvres d'art, places, cathédrales, bâtiments historiques, etc. en proposant des explications claires et compréhensibles et en s'attardant près des lieux intéressants. Le guide touristique fournit souvent aux participants des cartes, brochures et autre matériel d'information utile pour mieux comprendre le patrimoine culturel qu'il présente. Il répond aux éventuelles questions des visiteurs et est responsable de la justesse des informations fournies.</p>
         </div>
 
         <div class="box">
             <i class="fas fa-globe-asia"></i>
             <h3>A travers le monde</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Pour ceux qui en ont les moyens, voyager peut être une vraie aubaine pour casser la routine. Ainsi, il peut s’agir de vacances, de voyage scolaire, de voyage d’affaires ou juste du tourisme. Toutes les raisons sont bonnes pour boucler ses valises et partir à la découverte du monde. En effet, le monde a tant à faire découvrir, car la nature bien faite regorge d’une biodiversité époustouflante, et divers paysages envoûtants. Ainsi, que ce soit pour se détendre sur les sables fins ou faire une randonnée en montagne, voyager nous offrira toujours du bonheur.</p>
         </div>
 
         <div class="box">
             <i class="fas fa-plane"></i>
             <h3>Voyagez rapidement</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>La méthode habituelle de voyage rapide dans le Nouveau Monde coûte Azoth. Azoth est une ressource bleue brillante obtenue en accomplissant des quêtes. La quantité d’Azoth nécessaire pour voyager rapidement varie en fonction du coût de base du déplacement de la colonie vers laquelle vous vous rendez, du coût de la distance et du coût d’encombrement. Plus le joueur veut voyager loin, plus Azoth cela coûtera cher.</p>
         </div>
 
         <div class="box">
             <i class="fas fa-hiking"></i>
             <h3>Aventures</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Vous êtes tiraillés, indécis, peut-être un peu effrayé à l’idée de voyager ? C’est normal, partir à l’étranger n’est pas toujours facile. Mais c’est une expérience véritablement bénéfique dont vous ressortirez plus fort, chaque belle rencontre et instant inoubliable contribuant à enrichir votre vision du monde. Pour voyager en toute sérénité, il est essentiel de bien préparer votre séjour à l’étranger : formalités administratives, transport, bagages, logement, financement… Heureusement, nous sommes là pour vous aider à passer un agréable séjour !</p>
         </div>
 
     </div>
@@ -591,9 +594,9 @@
             <h3>Credit</h3>
 
             <a href="https://fr.wikipedia.org/">Wikipédia</a>
-            <a href="#">Youtube</a>
-            <a href="#">Freepik</a>
-            <a href="#">Google</a>
+            <a href="https://youtube.com/">Youtube</a>
+            <a href="https://freepik.com/">Freepik</a>
+            <a href="https://google.com/">Google</a>
             <a href="mentions-legales.php">Mentions Légales</a>
 
         </div>
@@ -616,12 +619,12 @@
 
             <h3>Nous suivre</h3>
 
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">snap</a>
-            <a href="https://github.com/paule29/">Github</a>
-            <a href="https://twitter.com/home">Twitter</a>
-            <a href="https://www.linkedin.com/in/paule-ombiono/">Linkedin</a>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://snap.com/">snap</a>
+            <a href="https://github.com/">Github</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.linkedin.com/">Linkedin</a>
             
             
         </div>

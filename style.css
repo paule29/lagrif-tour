@@ -25,7 +25,7 @@
 }
 
 
-php{
+html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 6rem;
@@ -38,7 +38,7 @@ php{
   
   .heading{
     text-align: center;
-    padding:2.5rem 0
+    padding:2rem 0
   }
 
   .heading span{
@@ -662,7 +662,7 @@ opacity: 0.5;
 /*media queries*/
 
 @media (max-width:1200px){
-    php{
+    html{
         font-size: 55%;
        
     }
@@ -713,7 +713,7 @@ opacity: 0.5;
 }
 
 @media (max-width:450px){
-    php{
+    html{
         font-size: 50%;
 
     }
@@ -726,20 +726,5 @@ opacity: 0.5;
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

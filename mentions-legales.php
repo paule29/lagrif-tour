@@ -1,3 +1,4 @@
+<?php include "header.html" ?>
 <div class="container">
 
 <div class="row">
@@ -44,3 +45,4 @@ Toute reproduction totale ou partielle de ces marques ou de ces logos, effectué
 
 
 </div>
+<?php include "footer.php" ?>
