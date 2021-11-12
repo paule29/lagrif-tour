@@ -312,16 +312,13 @@
         <div class="box">
             <i class="fas fa-hotel"></i>
             <h3>Nos hotêls</h3>
-            <p>Pour beaucoup de gens, choisir un hôtel fait simplement partie de la préparation d’un voyage, c’est une décision comme une autre, au même titre que l’achat d’un billet d’avion ou de train ! Après tout, ce qui compte est ce que l’on fait sur place dans la ville que l’on visite, non ?
-
-En réalité, pas tout à fait ! Un bon hébergement peut rendre votre voyage encore plus agréable… et une mauvaise expérience peut vous gâcher un séjour. Voilà qui mérite de se poser la question : comment bien choisir un hôtel ?</p>
+            <p>Pour beaucoup de gens, choisir un hôtel fait simplement partie de la préparation d’un voyage, c’est une décision comme une autre, au même titre que l’achat d’un billet d’avion ou de train ! Après tout, ce qui compte est ce que l’on fait sur place dans la ville que l’on visite, non? En réalité, pas tout à fait ! Un bon hébergement peut rendre votre voyage encore plus agréable… et une mauvaise expérience peut vous gâcher un séjour. Voilà qui mérite de se poser la question : comment bien choisir un hôtel?</p>
         </div>
 
         <div class="box">
             <i class="fas fa-utensils"></i>
             <h3>Mets et traditions</h3>
-            <p>Voyager c’est avoir la chance de découvrir une culture et des traditions locales pour un enrichissement personnel. Cela permet de relativiser et de devenir plus ouvert et tolérant. C’est une opportunité de remettre ses croyances en cause. C’est sortir de son quotidien, rompre la routine, rencontrer l’autre, les autres.
-Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas la découverte d’un pays sans une découverte culinaire. Nous aimons voir comment les autres s’organisent. Chaque pays renferme des traditions différentes et la gastronomie raconte une histoire, une culture, un paysage et une identité..</p>
+            <p>Voyager c’est avoir la chance de découvrir une culture et des traditions locales pour un enrichissement personnel. Cela permet de relativiser et de devenir plus ouvert et tolérant. C’est une opportunité de remettre ses croyances en cause. C’est sortir de son quotidien, rompre la routine, rencontrer l’autre, les autres. Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas la découverte d’un pays sans une découverte culinaire. Nous aimons voir comment les autres s’organisent. Chaque pays renferme des traditions différentes et la gastronomie raconte une histoire, une culture, un paysage et une identité...</p>
         </div>
 
         <div class="box">
@@ -345,7 +342,7 @@ Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas
         <div class="box">
             <i class="fas fa-hiking"></i>
             <h3>Aventures</h3>
-            <p>Vous êtes tiraillés, indécis, peut-être un peu effrayé à l’idée de voyager ? C’est normal, partir à l’étranger n’est pas toujours facile. Mais c’est une expérience véritablement bénéfique dont vous ressortirez plus fort, chaque belle rencontre et instant inoubliable contribuant à enrichir votre vision du monde. Pour voyager en toute sérénité, il est essentiel de bien préparer votre séjour à l’étranger : formalités administratives, transport, bagages, logement, financement… Heureusement, nous sommes là pour vous aider à passer un agréable séjour !</p>
+            <p>Vous êtes tiraillés, indécis, peut-être un peu effrayé à l’idée de voyager ? C’est normal, partir à l’étranger n’est pas toujours facile. Mais c’est une expérience véritablement bénéfique dont vous ressortirez plus fort, chaque belle rencontre et instant inoubliable contribuant à enrichir votre vision du monde. Pour voyager en toute sérénité, il est essentiel de bien préparer votre séjour à l’étranger : formalités administratives, transport, bagages, logement, financement… Heureusement, nous sommes là pour vous aider à passer un agréable séjour!</p>
         </div>
 
     </div>
@@ -493,7 +490,7 @@ Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas
 
                     <img src="assets/images/moi-2.jpg" alt="">
                     <h3>Paule OMBIONO</h3>
-                    <p>Stagiaire à l'ACS de Dijon en reconversion professionnelle. Parcours pas très glorieux car très souvent absente, mais par ma volonté d'apprendre, ma motivation et ma tenacité je suis arrivée au bout de cette formation.</p>
+                    <p>Stagiaire à l'ACS de Dijon en reconversion professionnelle. Parcours de formation pas très facile car souvent absente, mais par ma volonté d'apprendre, ma motivation et ma tenacité je suis arrivée au bout de cette formation.</p>
                     <p>Merci à mon formateur, mon maitre de stage et à mes collègue de m'avoir accepté et encouragé malgré tout. </p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -591,7 +588,7 @@ Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas
 
         <div class="box">
 
-            <h3>Credit</h3>
+            <h3>Crédits</h3>
 
             <a href="https://fr.wikipedia.org/">Wikipédia</a>
             <a href="https://youtube.com/">Youtube</a>
@@ -621,8 +618,8 @@ Goûter des plats différents, fait partie de la magie. Nous n’envisageons pas
 
             <a href="https://facebook.com">Facebook</a>
             <a href="https://instagram.com">Instagram</a>
-            <a href="https://snap.com/">snap</a>
-            <a href="https://github.com/">Github</a>
+            <a href="https://snap.com/">Snap</a>
+            <a href="https://github.com/">GitHub</a>
             <a href="https://twitter.com/">Twitter</a>
             <a href="https://www.linkedin.com/">Linkedin</a>
             
