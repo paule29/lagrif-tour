@@ -1,0 +1,150 @@
+===PRESENTATION===
+
+.htaccess sont des fichiers de config Apache
+
+Les fichiers .htaccess ne doivent être utilisés que si vous n'avez pas accès au fichier de configuration du serveur principal. L'utilisation des fichiers .htaccess ralentit le fonctionnement de votre serveur HTTP Apache. Il est toujours préférable de définir les directives que vous pouvez inclure dans un fichier .htaccess dans une section Directory, car elles produiront le même effet avec de meilleures performances.
+
+utilitées: 
+ - améliorer la sécuritée
+ - augmenter la vitesse de chargement
+ - redirection
+ - géré les erreurs
+ - et bien d'autres choses...
+
+===verrouiller l'affichage des repertoires===
+
+# Désactiver l'affichage du contenu des répertoires
+Options All -Indexes
+
+# Alternative pour empêcher le listage des répertoires
+IndexIgnore *
+
+===masquer info php.ini===
+
+# Masquer les informations du serveur
+ServerSignature Off
+
+===liens symboliques ===
+
+# Activation du suivi des liens symboliques
+Options +FollowSymLinks
+
+===choix de l'heure en fonction du fuseau horraire===
+
+# Choix du fuseau horaire
+SetEnv TZ Europe/Paris
+
+===encodage des caractères par défaut===
+
+# Encodage par défaut des fichiers textes et HTML
+AddDefaultCharset UTF-8
+
+===Protéger le fichier .htaccess lui-même===
+
+# Protéger les fichiers .htaccess et .htpasswds
+<Files ~ "^.*\.([Hh][Tt][AaPp])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+===Bannir des adresses IP===
+
+# Bannir une adresse IP
+<Limit GET POST>
+order allow,deny
+deny from xxx.xxx.xxx.xxx
+allow from all
+</Limit>
+
+xxx.xxx.xxx.xxx = IP à bannir
+
+===redirections===
+
+# Redirection d'une page quelconque
+Redirect 301 /anciennepage/ http://www.monsite.com/nouvellepage
+
+===Rediriger vers HTTPS===
+
+# Redirection vers HTTPS 
+RewriteCond     %{SERVER_PORT} ^80$
+RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+===Forcer le téléchargement de fichiers spécifiques===
+
+# Forcer le téléchargement pour ces types de fichiers
+AddType application/octet-stream .doc .docx .xls .xlsx .csv .mp3 .mp4
+
+===Protection contre les injections de fichiers===
+
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http:// [OR]
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=(\.\.//?)+ [OR]
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=/([a-z0-9_.]//?)+ [NC]
+RewriteRule .* - [F]
+
+===Compressions des fichiers statiques===
+
+<IfModule mod_deflate.c> 
+    AddOutputFilterByType DEFLATE text/xhtml text/html text/plain text/xml text/javascript application/x-javascript text/css 
+    BrowserMatch ^Mozilla/4 gzip-only-text/html 
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip 
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html 
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary 
+    Header append Vary User-Agent env=!dont-vary 
+</IfModule>  
+
+AddOutputFilterByType DEFLATE text/html  
+AddOutputFilterByType DEFLATE text/plain  
+AddOutputFilterByType DEFLATE text/xml  
+AddOutputFilterByType DEFLATE text/css  
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/json  
+
+===protection contre le clickjacking===
+
+le clickjacking est une technique qui permet de faire croire à un visiteur qu’il est sur votre site, alors que ce n’est pas le cas, grâce à des balises frame ou iframe.
+
+Le code suivant permet donc de vous protéger contre le clickjacking, de lutter contre d’autres menaces comme le MIME Sniffing, et de bloquer le contenu en cas d’attaque XSS (qui va injecter du code HTML ou JavaScript dans des variables mal protégées).
+
+# Protections diverses (XSS, clickjacking et MIME-Type sniffing)
+<ifModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header always append X-Frame-Options SAMEORIGIN
+Header set X-Content-Type-Options: "nosniff”
+</ifModule>
+
+
+
+===PROTECTION PAR MDP .passwd===
+
+dans htaccess:
+
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/exemple/.htpasswd"
+Require valid-user
+
+dans .htpasswd:
+
+login:mot_de_passe_crypté
+
+obtention du cryptage: 
+ - <?php $pass_hache = password_hash($_POST['base_a_hasher'], PASSWORD_DEFAULT); echo $pass_hache; ?>
+
+ - se rendre sur le converteur en ligne: 
+https://pauleo.promo-68.codeur.online/forpromo/cryptokey-hash/
+
+
+
+
+
+
+
+
+
+
+

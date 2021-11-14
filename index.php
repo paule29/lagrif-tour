@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
-<link rel="stylesheet" media="screen" href="style.css" type="text/css" />
+<link rel="stylesheet" media="screen" href="assets/styles/style.css" type="text/css" />
 </head>
 <body>
     <!-- début header -->
@@ -71,7 +71,7 @@
     <div class="content">
         <h3>Le monde à travers moi</h3>
         <p>Vivez l'aventure</p>
-        <a href="#" class="btn">Découvrir d'avantage</a>
+        
     </div>
     <div class="controls">
         <span class="vid-btn active" data-src="assets/images/vid-1.mp4"></span>
@@ -535,7 +535,7 @@
             <img src="assets/images/contact.svg" alt="">
         </div>
 
-        <form action="handler.php" method="POST">
+        <form action="assets/pages/handler.php" method="POST">
 
             <div class="inputBox">
                 <input type="text" placeholder="Nom" name="user_name">
@@ -594,7 +594,7 @@
             <a href="https://youtube.com/">Youtube</a>
             <a href="https://freepik.com/">Freepik</a>
             <a href="https://google.com/">Google</a>
-            <a href="mentions-legales.php">Mentions Légales</a>
+           
 
         </div>
 
@@ -648,7 +648,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-<script src="main.js"></script>
+<script src="assets/script/main.js"></script>
 
 </body>
 </html>
